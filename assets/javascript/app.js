@@ -2,9 +2,11 @@
 // -get myQuestions array to display in html instead of console
 // -make timer start on click
 // -make timer update/display time remaining
-// -write conditional for correctAnswer
+// -write conditional for correctAnswer: track user input (radio buttons), compare if input=correctAnswer, if true correct++ else incorrect++ 
 
-
+ var correct
+ var incorrect
+ 
 //  Start on click.
 var start;
 
