@@ -1,6 +1,18 @@
-// var arr = ['x', 'y','z'];
+// To-do:
+// -get myQuestions array to display in html instead of console
+// -make timer start on click
+// -make timer update/display time remaining
+// -write conditional for correctAnswer
 
-// console.log(arr)
+
+//  Start on click.
+var start;
+
+function starter() {
+    start = setTimeout(function(){ alert("Time's up") }, 1000 * 30);
+    $("#time").html(start);
+}
+
 
 function game() {
 
@@ -37,5 +49,7 @@ function game() {
       correctAnswer: "d"
     }
   ];
+  console.log(myQuestions);
 };
 game();
+
